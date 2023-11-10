@@ -12,5 +12,12 @@ main{
     flex-direction: column;
 }
 section{
-    margin: 20px;
+    margin: 30px;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: blue;
 }
