@@ -1,22 +1,30 @@
+/* Para alterar toda a parte visível da página */
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: blue;
 }
+/* Para alterar somente o cabeçalho */
 header{
     text-align: center;
     color: aliceblue;
 }
+/* Para alterar somente a parte do conteúdo */
 main{
     background-color: aliceblue;
+    /* Para deixar a página mais responsiva utilizando flex box */
     display: flex;
+    /* Para deixar as sessões na vertical */
     flex-direction: column;
 }
+/* Para alterar as pequenas sessões dentro da parte principal */
 section{
     margin: 30px;
 }
+/* Para estilizar o rodapé */
 footer{
     text-align: center;
     width: 100%;
+    /* Para deixá-lo fixo no fim da página */
     position: fixed;
     bottom: 0;
     background-color: blue;
